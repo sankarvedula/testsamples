@@ -15,13 +15,13 @@ public class MainApp {
 		  //XmlBeanFactory factory = new XmlBeanFactory (new ClassPathResource("Beans.xml")); 
 	      //HelloWorld obj = (HelloWorld) factory.getBean("helloWorld");    
 	      //obj.getMessage();
-		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+		/*ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 	      JavaCollection jc=(JavaCollection)context.getBean("javaCollection");
 
 	      jc.getAddressList();
 	      jc.getAddressSet();
 	      jc.getAddressMap();
-	      jc.getAddressProp();
+	      jc.getAddressProp();*/
 	}
 
 }

@@ -1,14 +1,14 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
+<!-- <?xml version = "1.0" encoding = "UTF-8"?>
 
 <beans xmlns = "http://www.springframework.org/schema/beans"
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-   <!-- Definition for javaCollection -->
+   Definition for javaCollection
    <bean id = "javaCollection" class = "com.test.model.JavaCollection">
       
-      <!-- results in a setAddressList(java.util.List) call -->
+      results in a setAddressList(java.util.List) call
       <property name = "addressList">
          <list>
             <value>INDIA</value>
@@ -18,7 +18,7 @@
          </list>
       </property>
 
-      <!-- results in a setAddressSet(java.util.Set) call -->
+      results in a setAddressSet(java.util.Set) call
       <property name = "addressSet">
          <set>
             <value>INDIA</value>
@@ -27,7 +27,7 @@
          </set>
       </property>
 
-      <!-- results in a setAddressMap(java.util.Map) call -->
+      results in a setAddressMap(java.util.Map) call
       <property name = "addressMap">
          <map>
             <entry key = "1" value = "INDIA"/>
@@ -37,7 +37,7 @@
          </map>
       </property>
       
-      <!-- results in a setAddressProp(java.util.Properties) call -->
+      results in a setAddressProp(java.util.Properties) call
       <property name = "addressProp">
          <props>
             <prop key = "one">INDIA</prop>
@@ -49,4 +49,4 @@
       </property>
    </bean>
 
-</beans>
+</beans> -->
